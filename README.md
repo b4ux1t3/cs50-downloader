@@ -21,9 +21,9 @@ You can do this in any number of ways, but in the spirit of CS50, I'm going to d
 6. Once thy are downloaded, you should be able to watch the videos and view the HTML files for each of the problem sets!
 
 
-**Appliance/Fedora/Mac**
+**Appliance/Fedora**
 
-1. Type `curl "https://github.com/b4ux1t3/cs50-downloader/archive/master.zip"` into the command line.
+1. Type `curl -o master.zip https://github.com/b4ux1t3/cs50-downloader/archive/master.zip` into the command line.
 
 2. Type `unzip *.zip`
 
