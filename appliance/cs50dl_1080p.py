@@ -3,8 +3,8 @@ from os import system
 # Videos
 
 for i in range(12):
-    system("curl -o \"cs50_week%s_monday\" http://cdn.cs50.net/2014/fall/lectures/%s/m/week%sm-1080p.mp4\"" % (i, i, i))
-    system("curl -o \"cs50_week%s_wednesday\" http://cdn.cs50.net/2014/fall/lectures/%s/w/week%sw-1080p.mp4\"" % (i, i, i))
+    system("curl -o \"cs50_week%s_monday\" \"http://cdn.cs50.net/2014/fall/lectures/%s/m/week%sm-1080p.mp4\"" % (i, i, i))
+    system("curl -o \"cs50_week%s_wednesday\" \"http://cdn.cs50.net/2014/fall/lectures/%s/w/week%sw-1080p.mp4\"" % (i, i, i))
 
     
 # Problem Sets
